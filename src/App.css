@@ -36,3 +36,7 @@
   display: grid;
   grid-template-columns: 2fr 4fr 1fr;
 }
+.cake-image {
+  width: 100%;
+  height: 500px;
+}
