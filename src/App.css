@@ -40,3 +40,21 @@
   width: 100%;
   height: 500px;
 }
+
+.IngredientsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.left-ingredients{
+  justify-self: center;
+}
+
+.right-ingredients {
+  justify-self: center;
+}
+
+.checked {
+  text-decoration: line-through;
+}
