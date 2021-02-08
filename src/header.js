@@ -7,6 +7,7 @@ export default class Header extends React.Component {
             <header className="App-header">
                 <img alt='logo' src="logo.png" />
                 <div>title</div>
+                <div></div>
                 <div>Icons</div>
             </header>
         </div>
