@@ -1,30 +1,36 @@
 import React from 'react';
 
-export default class IngredientsList extends React.Component {
+export const ingredientsArray = [
+    {
+      amount: '1 1/2 cups',
+      name: 'milk',
+    },
+    {
+      amount: '1/2 cup',
+      name: 'mascapone',
+    },
+    {
+      amount: '1/2 tsp',
+      name: 'pink salt',
+    },
+    {
+      amount: '1 lb',
+      name: 'Black Mission Figs',
+    },
+    {
+      amount: '1/2 cup',
+      name: 'brown sugar',
+    },
+    {
+      amount: '2-4 tbsp',
+      name: 'water',
+    },
+  ]
+  
+  export default class IngredientComponent extends React.Component {
     render() {
-        return (
-            <div className="IngredientsList">
-                <div className='left-ingredients'>
-                    <ul>
-                        <li>1 1/2 cups milk</li>
-                        <li>1/2 cup marscapone</li>
-                        <li>1 1/2 cups milk</li>
-                        <li>1 1/2 cups milk</li>
-                        <li>1 1/2 cups milk</li>
-                        <li>1 1/2 cups milk</li>
-                    </ul>
-                </div>
-                <div className='right-ingredients'>
-                    <ul>
-                        <li>1 1/2 cups milk</li>
-                        <li className='checked'>1 1/2 cups milk</li>
-                        <li className='checked'>1 1/2 cups milk</li>
-                        <li>1 1/2 cups milk</li>
-                        <li>1 1/2 cups milk</li>
-                        <li>1 1/2 cups milk</li>
-                    </ul>
-                </div>
-            </div>
-        )
+      return <div>
+        <p>{this.props.ingredientProp.amount} {this.props.ingredientProp.name}</p>
+      </div>
     }
-}
+  }
