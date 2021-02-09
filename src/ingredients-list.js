@@ -25,8 +25,10 @@ export const ingredientsArray = [
       amount: '2-4 tbsp',
       name: 'water',
     },
-  ]
+  ];
+
   
+       
   export default class IngredientComponent extends React.Component {
     render() {
       return <div>
@@ -34,3 +36,4 @@ export const ingredientsArray = [
       </div>
     }
   }
+ 

@@ -41,24 +41,12 @@
   height: 500px;
 }
 
-.IngredientsList {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-}
-
-.left-ingredients{
-  justify-self: center;
-}
-
-.right-ingredients {
-  justify-self: center;
-}
-
-.checked {
-  text-decoration: line-through;
-}
 .footer-bio {
   display: grid;
   grid-template-columns: 1fr 8fr 2fr;
+}
+.food-stuff {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 }
