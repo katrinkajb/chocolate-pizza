@@ -58,3 +58,7 @@
 .checked {
   text-decoration: line-through;
 }
+.footer-bio {
+  display: grid;
+  grid-template-columns: 1fr 8fr 2fr;
+}
